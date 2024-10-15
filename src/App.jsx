@@ -3,13 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Mynavbar from './assets/components/MyNavbar'
+import Approuter from './assets/router/Approuter'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Mynavbar />;
+
+      <Approuter />;
     </>
   )
 }
