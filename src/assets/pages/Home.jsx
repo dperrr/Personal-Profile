@@ -8,8 +8,12 @@ function Home() {
         <>
             <Mynavbar />
             <div className="home-container"> 
-                <h2 className="glass-effect">Welcome to My Profile!</h2> {/* Glass effect class */}
+                <h2 className="glass-effect">Welcome to My Profile!</h2>
+                <p>I am Jasper Dan S. Rosellon currently enrolled at 
+                    Pamantasan ng cabuyao</p>
             </div>
+            
+    
         </>
     );
 }

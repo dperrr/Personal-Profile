@@ -1,12 +1,24 @@
+.nav--bg {
+    background-color: #ffffff; 
+    padding: 0.5rem 1rem; 
 
-.nav--link {
-    color: black !important;
-}
-
-.nav-link:hover {
-    color: rgb(97, 101, 108) !important;
-}
-
-.nav--bg{
-    background-color: antiquewhite;
-}
+  }
+  
+  .nav--brand {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav--link {
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav--link:hover {
+    color: #007bff; 
+  }
+  
+  .active {
+    color: #007bff;
+  }
+  

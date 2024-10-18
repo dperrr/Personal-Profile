@@ -1,6 +1,4 @@
 
-
-
 .glass-effect {
     background-color: #8EC5FC; 
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
@@ -12,7 +10,7 @@
     color: #fff; 
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
+ 
 
 .gradient-background {
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
@@ -21,9 +19,28 @@
     margin: 20px 0; 
 }
 
-
+.container {
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    padding: 1rem;
+    border-radius: 1rem;
+}
 
 
 .card-text {
     color: rgb(19, 18, 18) !important;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+
+
+.devi--icon {
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+}
+
+.devi--icon:hover {
+    transform: scale(1.1); 
 }
