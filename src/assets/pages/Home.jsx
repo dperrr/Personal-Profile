@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Mynavbar from '../components/MyNavbar';
 import '../styles/homestyle.css';
+import Mynavbar from '../components/MyNavbar';
 
 function Home() {
     return (
