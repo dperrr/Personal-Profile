@@ -1,5 +1,5 @@
 import React from 'react';
-import Mynavbar from '../components/MyNavbar';
+import Mynavbar from '../components/Mynavbar';
 
 function Skills() {
     return (

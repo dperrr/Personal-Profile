@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Mynavbar from '../components/MyNavbar';
+import Mynavbar from '../components/Mynavbar';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Success from '../components/Sucess.jsx'; 

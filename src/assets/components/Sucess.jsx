@@ -1,10 +1,10 @@
 import React from 'react';
-import Mynavbar from './MyNavbar';
+import MyNavbar from './Mynavbar.jsx';
 
 function Success({ values }) {
     return (
         <>
-            <Mynavbar />
+            <MyNavbar />
             <div className="home-container mt-5 glass-effect">
                 <h1>Thank you, {values.username}!</h1>
                 <p>Your message has been sent successfully.</p>
